@@ -14,7 +14,7 @@
         {% for restaurant in restaurants %}
             <section>
                 <h2>{{ restaurant.get('name') }}</h2>
-                <img src="{{ restaurant.get('image_url') }}" alt="Picture of nature"/>
+                <img src="{{ restaurant.get('image_url') }}" alt="Restaurant picture"/>
                 <h4>{{ restaurant.get('display_address') }}</h4>
                 <p>Price: <b>{{ restaurant.get('price') }}</b></p>
                 <p>Rating: <b>{{ restaurant.get('rating') }}</b></p>
